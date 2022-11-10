@@ -14,9 +14,12 @@ xI:  real
 xII: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-a<-1
-b<- 2
-c<- -15
+escreva ("O valor da constante a: ")
+leia(a)
+escreva ("O valor da contante b: ")
+leia(b)
+escreva ("O valor da constante c: ")
+leia (c)
 
 Delta<-(b*b -4 *a*c)
 
@@ -25,7 +28,9 @@ xI<- (-b+RaizQ(Delta))/(2*a)
 xII<- (-b-RaizQ(Delta))/(2*a)
 
 escreva (xI)
+leia (xI)
 escreva (xII)
+leia(xII)
 
 
 
