@@ -101,6 +101,7 @@ leia(emp)
 escolha emp
 escreval ("DIGITE O VALOR DO EMPRESTIMO")
 leia (vE)
+
 caso 1
 escreval ("DIGITE O VALOR DE SEU SALARIO")
 leia(sal)
@@ -113,6 +114,46 @@ se (sal< pR) entao
 escreval ("VOCE NAO PODE PEGAR UM EMPRESTIMO")
 fimse
 fimescolha
+
+caso 2
+escreval ("DIGITE O VALOR DE SEU SALARIO")
+leia(sal)
+escreval ("DIGITE O PRAZO QUE VOCE DESEJA PAGAR SEU EMPRESTIMO")
+leia(pE)
+tX<- 2.4/100
+pR<- (pE/tX)
+escreval ("O VALOR DAS PARCELAS SAO DE ", pR, " POR MES")
+se (sal< pR) entao
+escreval ("VOCE NAO PODE PEGAR UM EMPRESTIMO")
+fimse
+fimescolha
+
+caso 3
+escreval ("DIGITE O VALOR DE SEU SALARIO")
+leia(sal)
+escreval ("DIGITE O PRAZO QUE VOCE DESEJA PAGAR SEU EMPRESTIMO")
+leia(pE)
+tX<- 2/100
+pR<- (pE/tX)
+escreval ("O VALOR DAS PARCELAS SAO DE ", pR, " POR MES")
+se (sal< pR) entao
+escreval ("VOCE NAO PODE PEGAR UM EMPRESTIMO")
+fimse
+fimescolha
+
+caso 4
+escreval ("DIGITE O VALOR DE SEU SALARIO")
+leia(sal)
+escreval ("DIGITE O PRAZO QUE VOCE DESEJA PAGAR SEU EMPRESTIMO")
+leia(pE)
+tX<- 2/100
+pR<- (pE/tX)
+escreval ("O VALOR DAS PARCELAS SAO DE ", pR, " POR MES")
+se (sal< pR) entao
+escreval ("VOCE NAO PODE PEGAR UM EMPRESTIMO")
+fimse
+fimescolha
+
 
 
 
