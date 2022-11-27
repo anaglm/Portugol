@@ -23,7 +23,7 @@ se (est = "mg") entao
 escreval("Digite o valor do produto")
 leia(prodt)
 mg<- (prodt*7/100)+prodt
-escreval("O valor final do produto é:")
+escreval("O valor final do produto Ã©:")
 escreval (mg)
 
 senao
@@ -31,7 +31,7 @@ se (est = "sp") entao
 escreval("Digite o valor do produto")
 leia(prodt)
 sp<- (prodt*12/100)+prod
-escreval("O valor final do produto é:")
+escreval("O valor final do produto Ã©:")
 escreval (sp)
 
 senao
@@ -39,7 +39,7 @@ se (est = "rj") entao
 escreval("Digite o valor do produto")
 leia(prodt)
 rj<- (prodt*15/100)+prodt
-escreval("O valor final do produto é:")
+escreval("O valor final do produto Ã©:")
 escreval (rj)
 
 senao
@@ -47,11 +47,11 @@ se (est = "ms") entao
 escreval("Digite o valor do produto")
 leia(prodt)
 ms<- (prodt*8/100)+prodt
-escreval("O valor final do produto é:")
+escreval("O valor final do produto Ã©:")
 escreval (ms)
 
 senao
-escreval("O estado nao é valido")
+escreval("O estado nao Ã© valido")
 
 
 fimse
