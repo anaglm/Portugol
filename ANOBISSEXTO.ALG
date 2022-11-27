@@ -1,9 +1,9 @@
 Algoritmo "ATV1(ANOBISSEXTO)"
-// algoritimo para saber se o ano é ou nao bissexto
+// algoritimo para saber se o ano Ã© ou nao bissexto
 Var
 //Entrada: ano que a pessoa digitou
 //Processamento: calculo
-//Saida: se o ano é ou nao bissexto
+//Saida: se o ano Ã© ou nao bissexto
 
 ano: inteiro
 sit1: inteiro
@@ -22,10 +22,10 @@ leia(ano)
  sit3<- ano%100
 
 se ((sit1=0 )ou( sit2=0) )e( (sit3>0)) entao
-escreval ("Seu ano é bissexto")
+escreval ("Seu ano Ã© bissexto")
 
 senao
-escreval("Seu ano nao é bissexto")
+escreval("Seu ano nao Ã© bissexto")
 
 
 
