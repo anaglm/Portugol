@@ -32,31 +32,31 @@ programa {
     caso 1
       escreva("ESCREVA VOCE ESCOLHEU 'HAMBURGUER'")
       valordolanche<- 12,00 
-      escreva("O VALOR DO LANCHE É DE 12,00")
+      escreva("O VALOR DO LANCHE Ã‰ DE 12,00")
       escreval("ESCREVA A QUANTIDADE DE LANCHE")
       leia(quantidadedelanche)
       valortotal<-(valordolanche*quantidadedelanche)
-      escreva("O VALOR TOTAL DO SEU LANCHE É:")    
+      escreva("O VALOR TOTAL DO SEU LANCHE Ã‰:")    
       escreva(valortotal)
     
     caso 2
       escreva("ESCREVA VOCE ESCOLHEU O PRIMEIRO LANCHE")
       valordolanche<- 12,00 
-      escreva("O VALOR DO LANCHE É DE 12,00")
+      escreva("O VALOR DO LANCHE Ã‰ DE 12,00")
       escreval("ESCREVA A QUANTIDADE DE LANCHE")
       leia(quantidadedelanche)
       valortotal<-(valordolanche*quantidadedelanche)
-      escreva("O VALOR TOTAL DO SEU LANCHE É:")    
+      escreva("O VALOR TOTAL DO SEU LANCHE Ã‰:")    
       escreva(valortotal)
 
     caso 3
       escreva("ESCREVA VOCE ESCOLHEU  ")
       valordolanche<- 12,00 
-      escreva("O VALOR DO LANCHE É DE 12,00")
+      escreva("O VALOR DO LANCHE Ã‰ DE 12,00")
       escreval("ESCREVA A QUANTIDADE DE LANCHE")
       leia(quantidadedelanche)
       valortotal<-(valordolanche*quantidadedelanche)
-      escreva("O VALOR TOTAL DO SEU LANCHE É:")    
+      escreva("O VALOR TOTAL DO SEU LANCHE Ã‰:")    
       escreva(valortotal)
    FIMCASO 
 
