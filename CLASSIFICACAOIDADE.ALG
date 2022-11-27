@@ -1,4 +1,4 @@
-Algoritmo "classificaçãoIdade"
+Algoritmo "classificaÃ§Ã£oIdade"
 // classificacao de uma idade quanto a crianca, adolecente
 // adulto e idoso
 
@@ -6,7 +6,7 @@ Algoritmo "classificaçãoIdade"
 Var
 // Entrada: anoNasc, anoAtual
 // Processamento: calculo da idade
-// Saida: classificação da idade
+// Saida: classificaÃ§Ã£o da idade
 
 anoNasc, anoAtual, idade:  inteiro
 nome:caracter
@@ -23,24 +23,24 @@ anoAtual<- 2022
 
 idade<- (anoAtual-anoNasc)
 
-escreval("Sua idade é:::")
+escreval("Sua idade Ã©:::")
 escreval(idade)
 
 se (idade <= 12) entao
 //verdadeiro
-escreval("Voce é criança")
+escreval("Voce Ã© crianÃ§a")
 
 senao
 se (idade>12) e (idade<18) entao
-escreval("Voce é adolecente")
+escreval("Voce Ã© adolecente")
 
 senao
 se (idade>=18) e (idade<65) entao
-escreval ("Voce é adulto")
+escreval ("Voce Ã© adulto")
 
 senao
 se (idade>65) entao
-escreval ("Voce é idoso")
+escreval ("Voce Ã© idoso")
 
 fimse
 fimse
