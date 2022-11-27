@@ -17,6 +17,6 @@ leia (cotD)
 
 reais<-(quantD*cotD)
 
-escreval("O valor dos doalres em reais é:  ")
+escreval("O valor dos doalres em reais Ã©:  ")
 escreval(reais)
 Fimalgoritmo
