@@ -1,7 +1,7 @@
 Algoritmo "ATV3(APOSENTADORIA)"
 // Algoritimo para calcular se a pessoa pode ou nao se aposentar
 Var
-// Entrada: idade e tempo de serviço prestado
+// Entrada: idade e tempo de serviÃ§o prestado
 //Processamento: calculo
 //Saida: saber se a pessoa pode ou nao se aposentar
 
@@ -13,7 +13,7 @@ Inicio
 escreval("Digite sua idade")
 leia(idd)
 
-escreval("Digite seu tempo de serviço")
+escreval("Digite seu tempo de serviÃ§o")
 leia(tempoS)
 
 
