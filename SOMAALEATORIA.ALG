@@ -1,22 +1,22 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 10/11/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 x1: inteiro
 x2: inteiro
 soma: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreval ("Soma Aleatoria de Numeros")
 escreval ("Escolha o primeiro numero:  ")
 leia (x1)
 escreval ("Escolha o segundo numero:   ")
 leia (x2)
 soma <- (x1+x2)
-escreval("Seu resultado é:")
+escreval("Seu resultado Ã©:")
 escreval(soma)
 Fimalgoritmo
