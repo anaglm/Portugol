@@ -1,0 +1,16 @@
+programa  
+{  
+    funcao inicio()  
+    {  
+        inteiro numerosPares  
+        numerosPares=0
+
+        faca   
+        { 
+          escreva (numerosPares ,"\n") 
+          numerosPares=numerosPares+2
+        } enquanto (numerosPares <= 1000)  
+         
+        
+         
+      }  
