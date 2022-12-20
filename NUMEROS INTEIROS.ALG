@@ -1,4 +1,6 @@
 Algoritmo "NUMEROS INTEIROS"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
 //algoritmo que le 10 numeros e analiza o maior deles e sua posicao
 
 Var
@@ -17,25 +19,25 @@ Inicio
       escreval ("")
       leia (vet [contador])
       escreval ("")
+   fimpara
 
+   para contador de 1 ate 10 faca
+      se vet[contador] > maior entao
+         maior <- vet[contador]
+         posicao<- contador
+      fimse
+   fimpara
+
+   para contador de 1 ate 10 faca
       para contador2 de 1 ate 10 faca
-
-         se vet[contador] > maior entao
-            maior <- vet[contador]
-            posicao<- contador
+         se vet[contador] < vet [contador2] entao
+            troca<- vet[contador]
+            vet[contador] <- vet [contador2]
+            vet [contador2] <- troca
          fimse
       fimpara
-
-      para contador de 1 ate 10 faca
-         para contador2 de 1 ate 10 faca
-            se vet[contador] < vet [contador2] entao
-               troca<- vet[contador]
-               vet[contador] <- vet [contador2]
-               vet [contador2] <- troca
-            fimse
-         fimpara
-      fimpara
    fimpara
+
 
 
 
@@ -44,8 +46,10 @@ Inicio
    fimpara
 
    escreval("")
+   escreval("O maior numero é: ")
    escreval(maior)
    escreval("")
+   escreval("A posicao do maior numero é: ")
    escreval(posicao)
 
 
